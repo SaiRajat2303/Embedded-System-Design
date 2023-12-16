@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "code.o" 
+--strict --scatter "Assignment2_ADC.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Assignment2_ADC.map" -o Assignment2_ADC.axf
